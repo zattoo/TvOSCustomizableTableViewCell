@@ -28,14 +28,15 @@ open class TvOSCustomizableTableViewCell: UITableViewCell {
     @IBInspectable public var focusedBackgroundColor: UIColor = .gray {
         didSet { updateBackgroundColor() }
     }
+
     @IBInspectable public var focusedBackgroundEndColor: UIColor? {
         didSet { updateBackgroundColor() }
-        
     }
+
     @IBInspectable public var normalBackgroundColor: UIColor = .clear {
         didSet { updateBackgroundColor() }
-        
     }
+
     @IBInspectable public var normalBackgroundEndColor: UIColor? {
         didSet { updateBackgroundColor() }
     }
@@ -43,6 +44,7 @@ open class TvOSCustomizableTableViewCell: UITableViewCell {
     @IBInspectable public var focusedTitleColor: UIColor = .black {
         didSet { updateTitleColor() }
     }
+
     @IBInspectable public var normalTitleColor: UIColor = .black {
         didSet { updateTitleColor() }
     }
