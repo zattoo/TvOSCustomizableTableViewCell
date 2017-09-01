@@ -58,7 +58,7 @@ If you prefer, you can also integrate TvOSCustomizableViewCell into your project
 
 TvOSCustomizableViewCell can be integrated both programmatically or embedded in a xib file.
 
-- [Using TvOSCustomizableTableViewCell programmatically](UsageProgramatically.md)
+- [Using TvOSCustomizableTableViewCell programmatically](docs/UsageProgramatically.md)
 - [Using TvOSCustomizableTableViewCell embedded in a xib or storyboard file](docs/UsageStoryboad.md)
 
 
