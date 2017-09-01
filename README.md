@@ -58,66 +58,7 @@ If you prefer, you can also integrate TvOSCustomizableViewCell into your project
 
 TvOSCustomizableViewCell can be integrated both programmatically or embedded in a xib file.
 
-## Programmatically
+- [Using TvOSCustomizableTableViewCell programmatically](UsageProgramatically.md)
+- [Using TvOSCustomizableTableViewCell embedded in a xib or storyboard file](docs/UsageStoryboad.md)
 
-TvOSCustomizableViewCell is a subclass of UITableViewCell, so it can be created and used as a regular TvOSCustomizableViewCell.
-
-Example:
-```swift
-class ViewController: UIViewController, UITableViewDataSource {
-
-    private var tableView: UITableView!
-    var dataSource: UITableViewDataSource
-
-    // MARK: UIViewController
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        setUpTableView()
-    }
-
-    // MARK: UITableViewDataSource
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
-    }
-
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! TvOSCustomizableTableViewCell
-
-        cell.textLabel?.text = "Item \(indexPath.row)"
-        cell.focusedTitleColor = .black
-        cell.focusedBackgroundColor = .white
-        cell.focusedScaleFactor = 1.05
-
-        return cell
-    }
-
-    // MARK: Private
-
-    private func setUpTableView() {
-        tableView = UITableView()
-        tableView.frame = view.bounds
-        tableView.dataSource = self
-        tableView.register(TvOSCustomizableTableViewCell.self, forCellReuseIdentifier: "Cell")
-        view.addSubview(tableView)
-    }
-}
-```
-
-## Embedded in a xib or storyboard file
-
-Due to the fact that TvOSCustomizableTableViewCell is a subclass of UITableViewCell, the first step is to drag and drop a regular UITableView from the Object library to your view.
-
-![](art/tableObjectLibrary.jpg)
-
-Then change the value of "Custom Class" to "TvOSCustomizableTableViewCell", and the cell type to "Custom" to avoid the default focus behavior.
-
-![](art/cellCustomClass.jpg) ![](art/cellTypeCustom.jpg)
-
-And that's all...
-
-The custom properties can be configured directly on the Storyboard using IBInspectables.
-
-![](art/ibinspectables.png)
 
