@@ -1,0 +1,16 @@
+PODS:
+  - TvOSCustomizableTableViewCell (1.0.0)
+
+DEPENDENCIES:
+  - TvOSCustomizableTableViewCell (from `..`)
+
+EXTERNAL SOURCES:
+  TvOSCustomizableTableViewCell:
+    :path: ".."
+
+SPEC CHECKSUMS:
+  TvOSCustomizableTableViewCell: b6707671ec69c44f7638eef870ada08e8904be7f
+
+PODFILE CHECKSUM: 8a6d52f242a1a7b70a5c9097ed18f22208bc327d
+
+COCOAPODS: 1.2.1

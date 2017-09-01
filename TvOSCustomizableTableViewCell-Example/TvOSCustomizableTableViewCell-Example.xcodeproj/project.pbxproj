@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EA118F699361319B7107627 /* Pods_TvOSCustomizableTableViewCell_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9830FB5CA73E24EF9997A7F /* Pods_TvOSCustomizableTableViewCell_Example.framework */; };
+		FF97048D1F501089001C3E49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF97048C1F501089001C3E49 /* AppDelegate.swift */; };
+		FF97048F1F501089001C3E49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF97048E1F501089001C3E49 /* ViewController.swift */; };
+		FF9704921F501089001C3E49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF9704901F501089001C3E49 /* Main.storyboard */; };
+		FF9704941F501089001C3E49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF9704931F501089001C3E49 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7608A8FAE022509EDA38263B /* Pods-TvOSCustomizableTableViewCell-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TvOSCustomizableTableViewCell-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TvOSCustomizableTableViewCell-Example/Pods-TvOSCustomizableTableViewCell-Example.release.xcconfig"; sourceTree = "<group>"; };
+		BC71A0862CE1BE0A6D03DD42 /* Pods-TvOSCustomizableTableViewCell-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TvOSCustomizableTableViewCell-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TvOSCustomizableTableViewCell-Example/Pods-TvOSCustomizableTableViewCell-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D9830FB5CA73E24EF9997A7F /* Pods_TvOSCustomizableTableViewCell_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TvOSCustomizableTableViewCell_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF9704891F501089001C3E49 /* TvOSCustomizableTableViewCell-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TvOSCustomizableTableViewCell-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF97048C1F501089001C3E49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF97048E1F501089001C3E49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF9704911F501089001C3E49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF9704931F501089001C3E49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF9704951F501089001C3E49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF9704861F501089001C3E49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EA118F699361319B7107627 /* Pods_TvOSCustomizableTableViewCell_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27397CA80ED3CC51790F24DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9830FB5CA73E24EF9997A7F /* Pods_TvOSCustomizableTableViewCell_Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B428A0734184E172342CEDB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC71A0862CE1BE0A6D03DD42 /* Pods-TvOSCustomizableTableViewCell-Example.debug.xcconfig */,
+				7608A8FAE022509EDA38263B /* Pods-TvOSCustomizableTableViewCell-Example.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FF9704801F501089001C3E49 = {
+			isa = PBXGroup;
+			children = (
+				FF97048B1F501089001C3E49 /* TvOSCustomizableTableViewCell-Example */,
+				FF97048A1F501089001C3E49 /* Products */,
+				7B428A0734184E172342CEDB /* Pods */,
+				27397CA80ED3CC51790F24DC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FF97048A1F501089001C3E49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF9704891F501089001C3E49 /* TvOSCustomizableTableViewCell-Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF97048B1F501089001C3E49 /* TvOSCustomizableTableViewCell-Example */ = {
+			isa = PBXGroup;
+			children = (
+				FF97048C1F501089001C3E49 /* AppDelegate.swift */,
+				FF97048E1F501089001C3E49 /* ViewController.swift */,
+				FF9704901F501089001C3E49 /* Main.storyboard */,
+				FF9704931F501089001C3E49 /* Assets.xcassets */,
+				FF9704951F501089001C3E49 /* Info.plist */,
+			);
+			path = "TvOSCustomizableTableViewCell-Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF9704881F501089001C3E49 /* TvOSCustomizableTableViewCell-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF9704981F501089001C3E49 /* Build configuration list for PBXNativeTarget "TvOSCustomizableTableViewCell-Example" */;
+			buildPhases = (
+				236EE990E82850266CC6779C /* [CP] Check Pods Manifest.lock */,
+				FF9704851F501089001C3E49 /* Sources */,
+				FF9704861F501089001C3E49 /* Frameworks */,
+				FF9704871F501089001C3E49 /* Resources */,
+				1833129370E4F7F0CA350990 /* [CP] Embed Pods Frameworks */,
+				C1CB64627359A36C2882D698 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TvOSCustomizableTableViewCell-Example";
+			productName = "TvOSCustomizableTableViewCell-Example";
+			productReference = FF9704891F501089001C3E49 /* TvOSCustomizableTableViewCell-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF9704811F501089001C3E49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Zattoo;
+				TargetAttributes = {
+					FF9704881F501089001C3E49 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FF9704841F501089001C3E49 /* Build configuration list for PBXProject "TvOSCustomizableTableViewCell-Example" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF9704801F501089001C3E49;
+			productRefGroup = FF97048A1F501089001C3E49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF9704881F501089001C3E49 /* TvOSCustomizableTableViewCell-Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF9704871F501089001C3E49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9704941F501089001C3E49 /* Assets.xcassets in Resources */,
+				FF9704921F501089001C3E49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1833129370E4F7F0CA350990 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TvOSCustomizableTableViewCell-Example/Pods-TvOSCustomizableTableViewCell-Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		236EE990E82850266CC6779C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C1CB64627359A36C2882D698 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TvOSCustomizableTableViewCell-Example/Pods-TvOSCustomizableTableViewCell-Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF9704851F501089001C3E49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF97048F1F501089001C3E49 /* ViewController.swift in Sources */,
+				FF97048D1F501089001C3E49 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF9704901F501089001C3E49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF9704911F501089001C3E49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF9704961F501089001C3E49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		FF9704971F501089001C3E49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF9704991F501089001C3E49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC71A0862CE1BE0A6D03DD42 /* Pods-TvOSCustomizableTableViewCell-Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "TvOSCustomizableTableViewCell-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zattoo.TvOSCustomizableTableViewCell-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		FF97049A1F501089001C3E49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7608A8FAE022509EDA38263B /* Pods-TvOSCustomizableTableViewCell-Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "TvOSCustomizableTableViewCell-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zattoo.TvOSCustomizableTableViewCell-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF9704841F501089001C3E49 /* Build configuration list for PBXProject "TvOSCustomizableTableViewCell-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9704961F501089001C3E49 /* Debug */,
+				FF9704971F501089001C3E49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF9704981F501089001C3E49 /* Build configuration list for PBXNativeTarget "TvOSCustomizableTableViewCell-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9704991F501089001C3E49 /* Debug */,
+				FF97049A1F501089001C3E49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF9704811F501089001C3E49 /* Project object */;
+}
