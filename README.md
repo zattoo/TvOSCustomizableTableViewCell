@@ -46,7 +46,7 @@ platform :tvos, '9.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-    pod 'TvOSCustomizableTableViewCell', :git => 'https://github.com/zattoo/TvOSCustomizableTableViewCell.git'
+    pod 'TvOSCustomizableTableViewCell', '~> 1.0.0'
 end
 ```
 
