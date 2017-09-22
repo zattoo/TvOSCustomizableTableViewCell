@@ -34,7 +34,7 @@ A simple two color, linear gradient can be configured by setting either "backgro
 ## Requirements
 
 - tvOS 9.0+
-- Xcode 8.2
+- Xcode 9
 
 ## Installation
 
