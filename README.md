@@ -48,7 +48,7 @@ platform :tvos, '9.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-    pod 'TvOSCustomizableTableViewCell', '~> 1.0.0'
+    pod 'TvOSCustomizableTableViewCell', '~> 1.0.1'
 end
 ```
 
