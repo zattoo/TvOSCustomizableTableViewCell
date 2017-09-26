@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name = 'TvOSCustomizableTableViewCell'
   s.author = 'Zattoo'
-  s.version = '1.0.0'
+  s.version = '1.0.1'
   s.license = 'MIT'
   s.summary = 'Light wrapper of UITableViewCell that allow extra customization for tvOS'
   s.homepage = 'https://github.com/zattoo/TvOSCustomizableTableViewCell'
