@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-### [1.0.1] - 2017-09-26
+## [1.0.1] - 2017-09-26
 This project was updated for Xcode 9 and Swift 4. Since there were no source changes, `TvOSCustomizableTableViewCell` is backwards compatible for all previous Swift versions.
 
 ## [1.0.0] - 2017-09-1
