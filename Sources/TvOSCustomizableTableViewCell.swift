@@ -49,7 +49,7 @@ open class TvOSCustomizableTableViewCell: UITableViewCell {
         didSet { updateTitleColor() }
     }
     
-    public override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+    public override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         setUpView()
     }
@@ -172,7 +172,7 @@ open class TvOSCustomizableTableViewCell: UITableViewCell {
         backgroundGradientView.endPoint = gradientEndPoint
         backgroundGradientView.colors = normalGradientBackgroundColors
         contentView.addSubview(backgroundGradientView)
-        contentView.sendSubview(toBack: backgroundGradientView)
+        contentView.sendSubviewToBack(backgroundGradientView)
     }
     
     private func selectedView(withColor color: UIColor) -> UIView {
