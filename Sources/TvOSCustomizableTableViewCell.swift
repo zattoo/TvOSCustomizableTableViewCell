@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import ZattooGradientView
 
 
 open class TvOSCustomizableTableViewCell: UITableViewCell {

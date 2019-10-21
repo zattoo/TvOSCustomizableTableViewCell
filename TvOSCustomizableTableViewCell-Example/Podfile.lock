@@ -1,16 +1,23 @@
 PODS:
-  - TvOSCustomizableTableViewCell (1.1.0)
+  - TvOSCustomizableTableViewCell (1.1.0):
+    - ZattooGradientView (~> 1.0.0)
+  - ZattooGradientView (1.0.0)
 
 DEPENDENCIES:
   - TvOSCustomizableTableViewCell (from `..`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ZattooGradientView
 
 EXTERNAL SOURCES:
   TvOSCustomizableTableViewCell:
     :path: ".."
 
 SPEC CHECKSUMS:
-  TvOSCustomizableTableViewCell: d079f7b16ad225653ff2d0602efabfa53b35b3f2
+  TvOSCustomizableTableViewCell: dedff3a9ca9c37784af87fd975e32b6bf5f5b27b
+  ZattooGradientView: 5ef6c93d60e080e7335d4e144d2ea7b623aa9b52
 
-PODFILE CHECKSUM: 8a6d52f242a1a7b70a5c9097ed18f22208bc327d
+PODFILE CHECKSUM: 787cd29470529b46f6e28bb6ae4b8ba5d433ae49
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.7.5
