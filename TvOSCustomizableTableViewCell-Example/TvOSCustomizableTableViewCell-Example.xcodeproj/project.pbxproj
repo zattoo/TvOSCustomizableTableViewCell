@@ -161,16 +161,18 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-TvOSCustomizableTableViewCell-Example/Pods-TvOSCustomizableTableViewCell-Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-TvOSCustomizableTableViewCell-Example/Pods-TvOSCustomizableTableViewCell-Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/TvOSCustomizableTableViewCell/TvOSCustomizableTableViewCell.framework",
+				"${BUILT_PRODUCTS_DIR}/ZattooGradientView/ZattooGradientView.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TvOSCustomizableTableViewCell.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZattooGradientView.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TvOSCustomizableTableViewCell-Example/Pods-TvOSCustomizableTableViewCell-Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TvOSCustomizableTableViewCell-Example/Pods-TvOSCustomizableTableViewCell-Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		236EE990E82850266CC6779C /* [CP] Check Pods Manifest.lock */ = {
@@ -340,6 +342,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Debug;
 		};
@@ -357,6 +360,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Release;
 		};

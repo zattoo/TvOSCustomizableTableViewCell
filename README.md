@@ -36,7 +36,7 @@ A simple two color, linear gradient can be configured by setting either "backgro
 
 ## Requirements
 
-- tvOS 9.0+
+- tvOS 11.0+
 - Xcode 11
 
 ## Installation
@@ -47,7 +47,7 @@ To integrate TvOSCustomizableViewCell into your Xcode project using CocoaPods, s
 
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
-platform :tvos, '9.0'
+platform :tvos, '11.0'
 use_frameworks!
 
 target '<Your Target Name>' do
