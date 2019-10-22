@@ -6,6 +6,7 @@ Pod::Spec.new do |s|
   s.summary = 'Light wrapper of UITableViewCell that allow extra customization for tvOS'
   s.homepage = 'https://github.com/zattoo/TvOSCustomizableTableViewCell'
   s.source = { :git => 'https://github.com/zattoo/TvOSCustomizableTableViewCell.git', :tag => s.version }
+  s.swift_version = '4.2'
   s.tvos.deployment_target = '11.0'
   s.source_files = 'Sources/**/*.swift'
   s.dependency 'ZattooGradientView', '~> 1.0.0'
