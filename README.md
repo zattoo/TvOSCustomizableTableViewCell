@@ -1,6 +1,6 @@
 # TvOSCustomizableTableViewCell
 ![License MIT](https://img.shields.io/badge/license-MIT-green.svg)
-![Swift 4.2](https://img.shields.io/badge/Swift-4.2-orange.svg)
+![Swift 5.0](https://img.shields.io/badge/Swift-5.0-orange.svg)
 [![Build Status](https://travis-ci.org/zattoo/TvOSCustomizableTableViewCell.svg?branch=master)](https://travis-ci.org/zattoo/TvOSCustomizableTableViewCell)
 
 Light wrapper of UITableViewCell that allows extra customization for tvOS
