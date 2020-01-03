@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [2.0.0] - 2020-01-03
+
+- Migrate to Swift 5 
+
 ## [1.1.1] - 2019-10-22
 
 - Integrate GradientView as a dependency

@@ -1,5 +1,5 @@
 PODS:
-  - TvOSCustomizableTableViewCell (1.1.1):
+  - TvOSCustomizableTableViewCell (2.0.0):
     - ZattooGradientView (~> 1.0.0)
   - ZattooGradientView (1.0.0)
 
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: ".."
 
 SPEC CHECKSUMS:
-  TvOSCustomizableTableViewCell: 98fba7a5106bd193f2e84de85772b9a27ff31bca
+  TvOSCustomizableTableViewCell: 50bcd0fe24f2f5360e5678a374a530cb5d41f182
   ZattooGradientView: 5ef6c93d60e080e7335d4e144d2ea7b623aa9b52
 
 PODFILE CHECKSUM: 787cd29470529b46f6e28bb6ae4b8ba5d433ae49
