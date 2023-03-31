@@ -84,8 +84,8 @@ open class TvOSCustomizableTableViewCell: UITableViewCell {
     }
     
     override open func pressesCancelled(_ presses: Set<UIPress>, with event: UIPressesEvent?) {
-        guard isFocused else { return }
         super.pressesCancelled(presses, with: event)
+        guard isFocused else { return }
         UIView.animate(
             withDuration: animationDuration,
             animations: {
