@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [2.0.1] - 2023-03-31
+
+- Fixed pressesEnded and pressesCancelled handlers
+
 ## [2.0.0] - 2020-01-03
 
 - Migrate to Swift 5 
