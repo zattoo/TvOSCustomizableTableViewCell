@@ -1,0 +1,25 @@
+[project]
+name = "TvOSCustomizableTableViewCell"
+description = "Light wrapper of UITableViewCell that allows extra customization for tvOS"
+maintainers = [
+  {name = "Topic Apple Maintenance"},
+]
+
+[project.urls]
+Documentation = "https://github.com/zattoo/TvOSCustomizableTableViewCell/blob/master/README.md"
+
+[tool.zattoo-artifact-catalog.metadata]
+type = "library"
+language = "Swift"
+lifecycle = "production"
+contact = [
+  {type = "Slack channel", name = "#topic-apple-maintenance"},
+]
+
+[tool.zattoo-artifact-catalog.relations]
+consumes-api = [
+  "Apple::UIKit",
+]
+provides-api = [
+  "TvOSCustomizableTableViewCell::API",
+]
